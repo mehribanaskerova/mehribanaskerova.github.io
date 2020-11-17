@@ -98,7 +98,8 @@
     .header_contacts{
         text-align: center;
     }
-    .header_btn:before{
+    .header_btn:before,
+    .news_title:before{
         display: none;
     }
     .footer_info .header_btn:before{
@@ -162,11 +163,15 @@
     }
 }
 @media(max-width: 400px){
-    .header_btn:before{
+    .header_btn:before,
+    .news_title:before{
         display: block;
     }
     .advantages_item{
         padding: 0;
+    }
+    .about_inner{
+        margin-bottom: 30px;
     }
 
 }
